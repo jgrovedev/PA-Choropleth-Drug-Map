@@ -5,7 +5,7 @@ A web map that displays drug related incident rates of counties in PA.
 I was interested in using pandas dataframes with different data sources to create a map in folium.
 
 ## Screenshots
-![screenshot](https://github.com/jgrovedev/PA-Choropleth-Drug-Map/blob/master/Screenshot_drugmap.PNG)
+![screenshot](https://github.com/jgrovedev/PA-Choropleth-Drug-Map/blob/master/Screenshot_drugmap.png)
 
 ## Tech/framework used
 <b>Built with</b>
