@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drug Map</title>
+    <!--LOADS leaflet.css FROM CDN-->
+    <link 
+        rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""
+    />
+    <!--LOADS style_blank.css FOR LEAFLET-->
+    <link href="style_blank.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="map"></div>
+    <!--LOADS jquery-3.4.1.js FROM CDN-->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <!--LOADS leaflet.js FROM CDN-->
+    <script 
+        src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin="">
+    </script>
+    <!--CONTAINS GEOJSON DATA-->
+    <script src="Data/totalData.js"></script>
+    <script src="Data/herData.js"></script>
+    <script src="Data/fenData.js"></script>
+    <script src="Data/opiData.js"></script>
+    <!--LOADS LEAFLET MAP DATA/CUSTIMIZATION-->
+    <script src="index.js"></script>    
+</body>
+</html>
