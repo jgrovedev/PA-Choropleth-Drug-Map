@@ -19,4 +19,4 @@ I was interested in using pandas dataframes with different data sources to creat
 Users can roll mouse over each county to display pop-up information and also select different layers.
 
 ## How to use?
-Open PA_County_Drug_Map.html to view map
+Open PA_Drug_Map.html to view map
