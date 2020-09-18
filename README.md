@@ -1,6 +1,9 @@
 ## PA Choropleth Drug Map
 A web map that displays drug related incident rates of counties in PA.  
 
+Preview:
+ https://jgrovegeo.github.io/PA-Choropleth-Drug-Map/
+
 ## Motivation
 I was interested in using pandas dataframes with different data sources to create a map in leaflet for the first time.
 
